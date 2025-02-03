@@ -1,9 +1,9 @@
 Metadata-Version: 2.2
 Name: shasha
-Version: 0.0.2
+Version: 0.0.5
 Summary: A Collection of Machine Learning Algorithms implemented from Scratch
 Author-email: Shabari <shabariprakashsv@gmail.com>
-License: # License
+License: MIT License
         
         Copyright (c) 2025 Shabari Prakash
         
