@@ -59,7 +59,12 @@ class My_DecisionTree:
 
 
     def _most_common_label(self,y):
-        return Counter(y).most_common(1)[0][0] 
+        if len(y) == 0:
+            return 0
+        counter = Counter(y)
+        if not counter:
+            return 0
+        return counter.most_common(1)[0][0] 
 
 
     def _best_split(self,X,y,feat_idxs):
